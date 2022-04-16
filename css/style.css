@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: rgb(82, 82, 82);
+}
+.container {
+    margin-right: 40px;
+}
+.bigContainer {
+    padding-top: 120px;
+    max-width: 1200px;
+    margin: auto;
+}
+.form-container{
+    display: flex;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(65, 65, 65);
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+}
+.input-container {
+    display: flex;
+    margin-bottom: 25px;
+}
+.input-container__input {
+    height:35px;
+    margin-right: 10px;
+}
+.input-container__child {
+    width: 25px;
+}
+.input-container__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.input-container select {
+    width: 173px;
+    height: 35px;
+    margin-right: 10px;
+}
+.input-container__date {
+    width: 172px;
+    height: 35px;
+}
+.form-submit__button {
+    background: rgb(20, 20, 20);;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.container__table{
+    margin-top: 50px;
+}
+.table {
+    background: rgb(136, 136, 136);
+    border-collapse: collapse;
+    margin: auto
+}
+.newBlock {
+    padding: 20px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 20px
+}
+.tableButton {
+    padding: 0;
+}
+.darkBlock{
+    background: rgb(82, 82, 82);
+    border: 1px solid rgb(82, 82, 82);
+    padding: 0;
+}
+.block__button {
+    padding: 25px 50px;
+    border: none;
+    background-color: rgb(143, 79, 79);
+    font-size: 20px;
+    cursor: pointer;
+}
+.displayNone {
+    display: none
+}
+.tableClone td {
+    background: rgb(160, 160, 160);;
+}

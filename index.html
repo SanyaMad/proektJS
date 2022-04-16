@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>PracticJS</title>
+</head>
+<body>
+    <div class="bigContainer">
+        <form action="#" class="form">
+            <div class="form-container">
+                <div class="container">
+                <div class="input-container">
+                    <input type="text" id="input__name" class="input-container__input">
+                    <label for="input__name" class="input-container__label">Имя</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="input__surname" class="input-container__input">
+                    <label for="input__surname" class="input-container__label">Фамилия</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="input__age" class="input-container__input">
+                    <label for="input__age" class="input-container__label">Возраст</label>
+                </div>
+                <div class="input-container">
+                    <input type="checkbox" id="input__child" class="input-container__input input-container__child">
+                    <label for="input__child" class="input-container__label">Есть дети?</label>
+                </div>
+                </div>
+                <div class="container">
+                <div class="input-container">
+                    <input type="text" id="input__org" class="input-container__input">
+                    <label for="input__org" class="input-container__label">Организация</label>
+                </div>
+                <div class="input-container">
+                    <select name="role-select" class="input__select">
+                        <option value="" selected></option>
+                        <option value="Фронтенд разработчик">Фронтенд разработчик</option>
+                        <option value="Бэкенд разработчик">Бэкенд разработчик</option>
+                        <option value="Тестировщик-автоматизатор ПО">Тестировщик-автоматизатор ПО</option>
+                        <option value="Разработчик игр">Разработчик игр</option>
+                    </select>
+                    <label class="input-container__label">Должность</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="input__rank" class="input-container__input">
+                    <label for="input__rank" class="input-container__label">Разряд</label>
+                </div>
+                <div class="input-container">
+                    <input type="date" id="input__date" class="input-container__input input-container__date">
+                    <label for="input__date" class="input-container__label">Дата принятия на работу</label>
+                </div>
+                </div>
+            </div>
+            <button class="form-submit__button">Отправить</button>
+        </form>
+    </div>
+    <div class="container__table">
+        <table class="table">
+        <tr class="tableString">
+            <td class="newBlock tableTitle">Имя</td>
+            <td class="newBlock tableTitle">Фамилия</td>
+            <td class="newBlock tableTitle">Возраст</td>
+            <td class="newBlock tableTitle">Есть дети?</td>
+            <td class="newBlock tableTitle">Организация</td>
+            <td class="newBlock tableTitle">Разряд</td>
+            <td class="newBlock tableTitle">Дата принятия на работу</td>
+            <td class="newBlock tableTitle darkBlock"></td>
+        </tr>
+        <tr class="tableString tableClone displayNone">
+            <td class="newBlock blockEmpty tableName"></td>
+            <td class="newBlock blockEmpty tableSecname"></td>
+            <td class="newBlock blockEmpty tableAge"></td>
+            <td class="newBlock blockEmpty tableChild"></td>
+            <td class="newBlock blockEmpty tableOrg"></td>
+            <td class="newBlock blockEmpty tableRole"></td>
+            <td class="newBlock blockEmpty tableRank"></td>
+            <td class="newBlock blockEmpty tableDate"></td>
+            <td class="newBlock blockEmpty tableButton"><button class="block__button delete-button">Удалить</button></td>
+        </tr>
+        </table>
+    </div>
+</body>
+</html>
