@@ -1,0 +1,19 @@
+{
+  "name": "prooektjs2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "url-search-params": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch --mode development"
+  },
+  "author": "sasha",
+  "license": "ISC"
+}
